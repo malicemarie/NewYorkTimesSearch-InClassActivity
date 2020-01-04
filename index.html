@@ -25,11 +25,11 @@
 
     <form>
       <div>Search Parameters</div>
-      <div class="form-group">
+      <div class="form-group" id="search">
         <label>Search Term:</label>
         <input type="text" class="form-control" />
       </div>
-      <div class="form-group">
+      <div class="form-group" id="numOfRecords">
         <label>Number of Records to Retrieve:</label>
         <select class="form-control" id="exampleFormControlSelect1">
           <option>1</option>
@@ -44,11 +44,11 @@
           <option>10</option>
         </select>
       </div>
-      <div class="form-group">
+      <div class="form-group" id="start-year">
         <label>Start Year (Optional):</label>
         <input type="text" class="form-control" />
       </div>
-      <div class="form-group">
+      <div class="form-group" id="end-year">
         <label>End Year (Optional):</label>
         <input type="text" class="form-control" />
       </div>
@@ -56,7 +56,7 @@
         <button class="btn btn-primary" type="button" id="search-button">
           <i class="fa fa-search"> Search</i>
         </button>
-        <button class="btn btn-primary" type="button" id="search-button">
+        <button class="btn btn-primary" type="button" id="clear-button">
           Clear Results
         </button>
       </div>
@@ -79,5 +79,7 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+
+    <script src="script.js"></script>
   </body>
 </html>
